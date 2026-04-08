@@ -1,4 +1,5 @@
 # NAKA-GS
+This pipeline was bulided base on [VGGT](https://github.com/facebookresearch/vggt) and [gsplat](https://github.com/nerfstudio-project/gsplat), thanks for their excellent works.
 
 NAKA-GS is an end-to-end pipeline for low-light 3D scene reconstruction and novel-view synthesis:
 

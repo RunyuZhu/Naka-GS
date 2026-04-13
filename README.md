@@ -7,6 +7,8 @@ NAKA-GS is an end-to-end pipeline for low-light 3D scene reconstruction and nove
 2. `VGGT` reconstructs sparse cameras and geometry from the enhanced images.
 3. `gsplat` performs Gaussian Splatting training, with optional `PPM` dense-point preprocessing.
 
+The qualitative result (visual comparison on RealX3D) can be found at folder"asset"
+
 ## 1. What The Pipeline Expects
 
 Each scene directory should look like this before the first run:

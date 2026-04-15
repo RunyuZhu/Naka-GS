@@ -255,6 +255,7 @@ This is expected when the CUDA extension is compiled for the first time.
 ## 13. Citation
 If you find this code useful for your research, please use the following BibTeX entry.
 
+```text
 @misc{zhu2026nakagsbionicsinspireddualbranchnaka,
       title={Naka-GS: A Bionics-inspired Dual-Branch Naka Correction and Progressive Point Pruning for Low-Light 3DGS}, 
       author={Runyu Zhu and SiXun Dong and Zhiqiang Zhang and Qingxia Ye and Zhihua Xu},
@@ -264,4 +265,5 @@ If you find this code useful for your research, please use the following BibTeX 
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2604.11142}, 
 }
+```
 

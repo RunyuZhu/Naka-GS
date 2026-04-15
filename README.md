@@ -1,6 +1,8 @@
 # NAKA-GS
 This pipeline was bulided base on [VGGT](https://github.com/facebookresearch/vggt) and [gsplat](https://github.com/nerfstudio-project/gsplat), thanks for their excellent works.
 
+The Paper can be found at: https://arxiv.org/abs/2604.11142; or view the .pdf file at: https://arxiv.org/pdf/2604.11142
+
 NAKA-GS is an end-to-end pipeline for low-light 3D scene reconstruction and novel-view synthesis:
 
 1. `Naka` enhances low-light training images.
@@ -249,3 +251,17 @@ This is expected when the CUDA extension is compiled for the first time.
 - Scene directory contains `train/`
 - `transforms_train.json` exists for `--pose-source replace`
 - `transforms_test.json` exists for `--render-traj-path testjson`
+
+## 13. Citation
+If you find this code useful for your research, please use the following BibTeX entry.
+
+@misc{zhu2026nakagsbionicsinspireddualbranchnaka,
+      title={Naka-GS: A Bionics-inspired Dual-Branch Naka Correction and Progressive Point Pruning for Low-Light 3DGS}, 
+      author={Runyu Zhu and SiXun Dong and Zhiqiang Zhang and Qingxia Ye and Zhihua Xu},
+      year={2026},
+      eprint={2604.11142},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2604.11142}, 
+}
+
